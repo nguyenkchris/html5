@@ -1,0 +1,76 @@
+<!--My first html5 program-->
+<!--ul = unordered list = bullets-->
+<!--ol = ordered list = numbers-->
+<!--li = specifies that the element is part of ul or ol-->
+<!--small = makes font small-->
+<!--em = emphasis = italics-->
+
+<!--Attributes are ALWAYS written within a start tag followed by an equal sign followed by attribute's details in quotations-->
+
+<!--<a></a> = anchor-->
+<!--href = hypertext reference = link-->
+<!--You can link between pages <a href="../page1.html">Link to page 1</a>-->
+<!--If you want to link to things on your page, specify the things you want to be linked with an id, then href the id-->
+<!--For example: <h1 id="Introduction">Introduction</h1> <a href="#Introduction">Introduction</a>-->
+
+<!--alt attribute = gives an alternate description of the image if the image cannot be loaded-->
+<!--title attribute = gives more info (hovers over text to see pop-up)-->
+<!--width attribute, height attribute = set width and height. E.g. width="300px" height="300px"-->
+
+<html>
+
+  <head>
+    
+    <center>
+      <!--Example of an attribute-->
+      <h1 title="Welcome to Chris's blog. Stop by and say hi. Leave me a note!">Team Chidori</h1>
+
+      <!--Note how the img element is opened and closed in the same tag-->
+      <!--The figure tags are not necessary. They tell the browser that you are wanting to insert a figure (image, ..., w/e)-->
+      <a href="http://www.gkworld.com/media/img/gkworld/W500-H361-Bffffff/M/9793ge.jpg">
+	<img src="http://www.gkworld.com/media/img/gkworld/W500-H361-Bffffff/M/9793ge.jpg"></a>
+      
+      <a href="http://www.blog-city.info/en/img1/1022_nar_naruto_kakashi_chidori.jpg">
+	<img src="http://www.blog-city.info/en/img1/1022_nar_naruto_kakashi_chidori.jpg"></a>
+
+      <style>
+	body{background-image:url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&docid=xmkEiRz9TZSSiM&tbnid=zpw5bgVRgcJyYM:&ved=0CAUQjRw&url=http%3A%2F%2Fwww.deviantart.com%2Fmorelikethis%2F203320760%2Fmanga%2Fdigital%2Fpaintings%3Foffset%3D420%26view_mode%3D2%23skins&ei=LxlEU4vMJ6HNsQTO_IDgDw&bvm=bv.64367178,d.b2I&psig=AFQjCNHO8qwTnGcHI1bdyrJNM1d-tlZtyA&ust=1397058216003698");
+	color:black;}
+      </style>
+
+    </center><br><br>
+
+    <a href="#about">What is Chidori?</a><br>
+
+    <a href="#contact">Contact Me</a><br>
+
+    <a href="#message">Leave Me a Message</a>
+  </head>
+
+  <body>
+    <h2 id="about">What is Chidori?</h2><hr> <!--Draws horizontal line-->
+    <strong>April 7, 2014</strong>
+    <p>Chidori is a technique first developed by Kakashi Hatake in the anime Naruto. Chidori generates a high amount of
+      lightning chakra to the surface of the user's body. Kakashi later teaches his student, Sasuke Uchiha, the Chidori 
+      in hopes of preventing Sasuke from going to Orochimaru searching for more power. Both Sasuke and Kakashi later refine 
+      this technique, extending it to a medium range attack.
+      <br><br>
+      Team Chidori is chosen as the name for a programming project. The group consists of Chris and Sharon. We are currently 
+      implementing a calculator that has some useful features for programmers such as binary bit toggle, binary left shift,
+      and binary right shift. We are currently in the phase of implementing our GUI in JavaFX.
+    <br><br>
+    <strong><center>Picture of the Day<br>
+	<a href="http://2.bp.blogspot.com/_Ul4NTE0AOFQ/SW3xJ2rziuI/AAAAAAAAAYU/bUPmSTE-JDI/s320/2.jpg">
+	  <img src="http://2.bp.blogspot.com/_Ul4NTE0AOFQ/SW3xJ2rziuI/AAAAAAAAAYU/bUPmSTE-JDI/s320/2.jpg"/></a>
+	</center></strong>
+    </p><hr>
+
+    <h2 id="contact">Contact Me</h2>
+    <!--title attribute is not necessary in the following example-->
+    <a href="https://www.facebook.com/chris.nguyen.3557" title="Add me as a friend on Facebook!">Visit me on Facebook!</a><br>
+    <a href="mailto:chris.nguyen.3357@facebook.com">Send me an email!</a><hr>
+    
+    <h2 id="message">Leave Me a Message</h2>
+  </body>
+
+</html>
